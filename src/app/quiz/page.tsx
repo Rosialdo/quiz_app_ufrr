@@ -168,7 +168,7 @@ export default function PageQuiz() {
                         {
                             userAnswsers.map(
                                 answer => <div key={answer.question} className="gap-3 group mt-6">
-                                  <p> <strong>Questão {id}°:</strong> {answer.question}</p>
+                                  <p> <strong>Questão: </strong> {answer.question}</p>
                                   <p><strong>Sua resposta: </strong> {answer.userAnswer}</p>
                                   <p className=""><strong>Resposta Correta: </strong> <strong><span className=" md:text-green-700 md:hover:text-green-600">{answer.correctAnswer}</span></strong></p>
                                 </div>
